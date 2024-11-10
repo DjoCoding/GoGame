@@ -106,4 +106,3 @@ func DrawString(screen tcell.Screen, x, y int, s string) {
 		screen.SetContent(x+i, y, c, nil, tcell.StyleDefault)
 	}
 }
-
